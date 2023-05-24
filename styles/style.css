@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&family=Montserrat:wght@600&family=Space+Mono&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+body{
+    /* height: 100vh; */
+    box-sizing: border-box;
+     background-color: black;
+     color: white;
+
+}
+
+.cabecalho {
+    padding: 2% 0% 0% 15%;
+
+
+
+}
+
+.cabecalho__menu {
+    display: flex;
+    gap: 80px;
+
+ }
+
+.cabecalho__menu__link{
+
+    font-family: 'Inconsolata', monospace;
+    font-size:  1.5rem;
+    font-weight: 600;
+    color: #22d4fd;
+    text-decoration: none;
+
+}
+
+
+
+span {
+    color: #62D5EB;
+}
+
+.apresentacao {
+    padding:5% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 82px;
+}
+
+.apresentancao__conteudo {
+
+    width: 50%;
+    display: flex ;
+    flex-direction: column;
+    gap: 40px;
+}
+
+
+.apresentacao__conteudo__titulo {
+
+    font-size: 2.2rem;
+    font-family: 'Inconsolata', monospace;
+}
+
+.titulo-destaque {
+    color: aqua;
+} 
+
+.apresentancao__conteudo__texto{
+
+    font-size: 1.5rem;
+    font-family: 'Space Mono', monospace;
+}
+
+.apresentacao__links {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+.apresentacao__links__link {
+
+    /* background-color:#62D5EB; */
+    display: flex; 
+    justify-content: center;
+    gap: 16px;
+    border: 2px solid #62D5EB; 
+    width: 50%;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 21.5px 0 ;
+    text-decoration: none;
+    color:#F6F6F6;;
+    font-family: 'Montserrat', sans-serif;;
+
+}
+
+.apresentacao__links__link:hover {
+
+background-color: #004970;
+
+
+}
+
+
+.apresentacao__links__subtitulo {
+
+    font-family: 'Space Mono', monospace;
+    font: weight 400; ;
+    font-size: 1.5rem;
+}
+
+
+.apresentacao__imagem{
+
+width: 50%;
+
+}
+
+
+
+.rodape {
+
+   padding: 24px;
+   color: #004970;
+   background-color: #22d4fd;
+   text-align: center;
+   font-family: 'Space Mono', monospace;
+   font: weight 600; ;
+   font-size: 1.5rem;
+
+}
+@media (max-width: 1200px) {
+
+    .cabecalho {
+        padding: 10%;
+
+    }
+
+    .cabecalho__menu {
+
+         justify-content:center ;
+
+    }
+
+    .apresentacao{
+        flex-direction: column-reverse;
+        padding: 5%;
+ 
+    }
+
+    .apresentancao__conteudo{
+
+        width: auto;
+    }
+
+}
+
